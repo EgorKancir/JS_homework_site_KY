@@ -1,0 +1,10 @@
+body {
+    padding-top: 100px;
+    background-color: yellow;
+}
+.js-text {
+    font-size: 200px;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+}
