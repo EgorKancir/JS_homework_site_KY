@@ -1,3 +1,6 @@
+const startLesson = '----Урок 1 Classwork';
+console.log(startLesson.toUpperCase());
+
 const age = "15";
 console.log(age);
 
@@ -46,7 +49,7 @@ if (userDanger == false) {
     alert(falseDanger);
 }
 
-1)
+// 1)
 
 const str = "Привіт";
 const num = 123;
@@ -61,7 +64,7 @@ console.log(typeof txt);
 // 2)
 
 let myName = "Egor";
-let age = 15;
+let age2 = 15;
 let year = 2024;
 let time = "10:58";
 let user;
@@ -72,7 +75,7 @@ const animals = false;
 const ready = true;
 
 console.log(typeof myName);
-console.log(typeof age);
+console.log(typeof age2);
 console.log(typeof year);
 console.log(typeof time);
 console.log(typeof user);
@@ -93,8 +96,8 @@ console.log(ourAge);
 
 let a = 32;
 let b = 12;
-let total = a * b;
-console.log(total);
+let total2 = a * b;
+console.log(total2);
 
 // 5)
 
@@ -104,14 +107,11 @@ console.log(startText, group);
 
 // 6)
 
-const userName = prompt("Вкажіть ваше ім'я");
-console.log(userName);
+const userName2 = prompt("Вкажіть ваше ім'я");
+console.log(userName2);
 
 // Творче завдання
 
 let nameDesktop = "«MacBook Pro 13»"
 let price = 100000;
 console.log("Обрано", nameDesktop, "ціна за штуку", price, "кредитів");
-
-
- 

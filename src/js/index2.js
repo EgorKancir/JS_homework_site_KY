@@ -1,4 +1,5 @@
-2 Лекція
+const startLesson = '----Урок 2 Classwork';
+console.log(startLesson.toUpperCase());
 
 const celsius = 20;
 let fahrenheit = (celsius * (9/5)) + 32 ;
