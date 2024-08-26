@@ -115,3 +115,5 @@ console.log(userName2);
 let nameDesktop = "«MacBook Pro 13»"
 let price = 100000;
 console.log("Обрано", nameDesktop, "ціна за штуку", price, "кредитів");
+
+
