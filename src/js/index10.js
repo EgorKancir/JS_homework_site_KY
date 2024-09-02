@@ -1,4 +1,4 @@
-const startLesson = '----Урок 9 Classwork';
+const startLesson = '----Урок 10 Classwork';
 console.log(startLesson.toUpperCase());
 
 console.log('Додаткові завдання'.toUpperCase());
