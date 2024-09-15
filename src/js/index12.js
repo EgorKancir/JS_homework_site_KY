@@ -290,7 +290,7 @@ function getAllPropValues(arr, prop) {
 console.log(getAllPropValues(items, 'name')); 
 console.log(getAllPropValues(items, 'brand'));
 
-console.log('5)');
+console.log('6)');
 
 const productsArr = [
     { name: "Laptop", price: 1200, quantity: 2 },
