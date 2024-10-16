@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Lesson 19</title>
+    <link rel="shortcut icon" href="./src/img/javascript_favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="js-title">JS</h1>
+        <h3 class="lesson-number">Lesson 19</h3>
+    </header>
+    <div class="lesson-box">
+        <h3 class="lesson-box__title">Choose a lesson</h3>
+        <div class="lesson-group">
+            <a class="lesson-group__number" href="./index.html">1</a>
+            <a class="lesson-group__number" href="./index2.html">2</a>
+            <a class="lesson-group__number" href="./index3.html">3</a>
+            <a class="lesson-group__number" href="./index4.html">4</a>
+            <a class="lesson-group__number" href="./index5.html">5</a>
+            <a class="lesson-group__number" href="./index6.html">6</a>
+            <a class="lesson-group__number" href="./index7.html">7</a>
+            <a class="lesson-group__number" href="./index8.html">8</a>
+            <a class="lesson-group__number" href="./index9.html">9</a>
+            <a class="lesson-group__number" href="./index10.html">10</a>
+            <a class="lesson-group__number" href="./index11.html">11</a>
+            <a class="lesson-group__number" href="./index12.html">12</a>
+            <a class="lesson-group__number" href="./index13.html">13</a>
+            <a class="lesson-group__number" href="./index14.html">14</a>
+            <a class="lesson-group__number" href="./index15.html">15</a>
+            <a class="lesson-group__number" href="./index16.html">16</a>
+            <a class="lesson-group__number" href="./index17.html">17</a>
+            <a class="lesson-group__number" href="./index18.html">18</a>
+            <a class="lesson-group__number lesson-group__number--active" href="./index19.html">19</a>
+        </div>
+    </div>
+    <div class="homework-group">
+        <div class="homework-group__element1">
+            <button class="firstbtn" height="20px" width="50px">Button</button>
+        </div>
+        <div class="homework-group__element2">
+            <h1 class="secondtitle">Hallo</h1>
+            <button class="secondbtn" height="20px" width="50px">Button2</button>
+        </div>
+        <div class="homework-group__element3">
+            <form>
+                <label for="userInput">Введіть текст:</label>
+                <input type="text" id="userInput" placeholder="Введіть щось тут">
+                <button type="submit" id="submitBtn">Відправити</button>
+            </form>
+            <div class="output" id="outputDiv"></div>
+        </div>
+        <div class="homework-group__element4">
+            <form>
+                <label for="inputName">Реєстрація</label>
+                <input type="text" id="inputName" placeholder="Введіть ваше ім'я">
+                <button type="submit" id="submitName">Зареєструватися</button>
+            </form>
+        </div>
+        <div class="homework-group__element5">
+            <button class="buttonfive" height="20px" width="50px">Button5</button>
+        </div>
+        <div class="homework-group__element6">
+            <form>
+                <label for="user-name">Привітання</label>
+                <input type="text" id="user-name" placeholder="Введіть ваше ім'я">
+                <button type="submit" id="submit-username">Привітатися</button>
+            </form>
+        </div>
+        <div class="homework-group__element7">
+            <button class="buttonseven" height="20px" width="50px">Змінити колір фону</button>
+        </div>
+        <div class="homework-group__element8">
+            <button class="buttoneight" height="20px" width="50px">Приховати/Показати</button>
+            <h1 class="on-off_title">Title</h1>
+        </div>
+        <div class="homework-group__element9">
+            <div class="text" id="textContent"> 
+                Це текст, який можна збільшувати або зменшувати.
+            </div>
+            <button id="increaseBtn">Збільшити</button>
+            <button id="decreaseBtn">Зменшити</button>
+        </div>
+        <div class="homework-group__element10">
+            <form>
+                <label for="form__firstname">Firstname</label>
+                <input type="text" id="form__firstname">
+                <label for="form__lastname">Lastname</label>
+                <input type="text" id="form__lastname">
+                <label for="form__email">Email</label>
+                <input type="email" id="form__email">
+                <button type="submit" id="form__submit">Ok</button>"
+            </form>
+        </div>
+        <div class="homework-group__element11">
+            <canvas id="drawingCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+        </div>
+        <div class="homework-group__element12">
+            <button class="button__modal" data-action="open-modal">Відкрити модалку</button>
+            <div class="backdrop__modal js-backdrop">
+                <div class="modal">
+                    <h2>Modal window</h2>
+                    <p>
+                        In user interface design for computer applications, a modal window is
+                        a graphical control element subordinate to an application's main
+                        window. It creates a mode that disables the main window but keeps it
+                        visible, with the modal window as a child window in front of it. Users
+                        must interact with the modal window before they can return to the
+                        parent application. This avoids interrupting the workflow on the main
+                        window. Modal windows are sometimes called heavy windows or modal
+                        dialogs because they often display a dialog box.
+                    </p>
+                    <button class="button__modal" data-action="close-modal">Закрити</button>
+                </div>
+            </div>
+        </div>
+        <div class="homework-group__element13">
+            <form>
+                <p>Choose a color:</p>
+                <label>
+                    <input type="radio" name="color" value="red" checked />
+                    Red
+                </label>
+                <label>
+                    <input type="radio" name="color" value="white" />
+                    White
+                </label>
+                <label>
+                    <input type="radio" name="color" value="green" />
+                    Green
+                </label>
+            </form>
+        </div>
+        <div class="homework-group__element14">    
+            <input type="text" placeholder="Ваше ім'я?" id="name-input" />
+            <h1>Привіт, <span id="name-output"></span>!</h1>
+        </div>
+        <div class="homework-group__element15">
+            <input type="text" id="validation-input" data-length="6" placeholder="Введи 6 символів"/>
+        </div>
+        <div class="homework-group__element16">
+            <input id="font-size-control" type="range" />
+            <br/>
+            <span id="text">Абракадабра!</span>
+        </div>
+    <script src="./src/js/index19.js"></script>
+</body>
+</html>
