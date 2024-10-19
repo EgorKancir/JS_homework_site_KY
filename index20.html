@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Lesson 20</title>
+    <link rel="shortcut icon" href="./src/img/javascript_favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="js-title">JS</h1>
+        <h3 class="lesson-number">Lesson 20</h3>
+    </header>
+    <div class="lesson-box">
+        <h3 class="lesson-box__title">Choose a lesson</h3>
+        <div class="lesson-group">
+            <a class="lesson-group__number" href="./index.html">1</a>
+            <a class="lesson-group__number" href="./index2.html">2</a>
+            <a class="lesson-group__number" href="./index3.html">3</a>
+            <a class="lesson-group__number" href="./index4.html">4</a>
+            <a class="lesson-group__number" href="./index5.html">5</a>
+            <a class="lesson-group__number" href="./index6.html">6</a>
+            <a class="lesson-group__number" href="./index7.html">7</a>
+            <a class="lesson-group__number" href="./index8.html">8</a>
+            <a class="lesson-group__number" href="./index9.html">9</a>
+            <a class="lesson-group__number" href="./index10.html">10</a>
+            <a class="lesson-group__number" href="./index11.html">11</a>
+            <a class="lesson-group__number" href="./index12.html">12</a>
+            <a class="lesson-group__number" href="./index13.html">13</a>
+            <a class="lesson-group__number" href="./index14.html">14</a>
+            <a class="lesson-group__number" href="./index15.html">15</a>
+            <a class="lesson-group__number" href="./index16.html">16</a>
+            <a class="lesson-group__number" href="./index17.html">17</a>
+            <a class="lesson-group__number" href="./index18.html">18</a>
+            <a class="lesson-group__number" href="./index19.html">19</a>
+            <a class="lesson-group__number lesson-group__number--active" href="./index20.html">20</a>
+        </div>
+    </div>
+    <div class="homework-group">
+        <div class="homework-group__element1">
+            <button class="js-clear">Очистити</button>
+            <p class="output js-output"></p>
+        </div>
+        <div class="homework-group__element2">
+            <input type="text" id="input">
+            <p id="message">№2</p>
+        </div>
+        <div class="homework-group__element3">
+            <p id="keybord-text">№3</p>
+        </div>
+        <div class="homework-group__element4">
+            <div id="box"></div>
+        </div>
+        <div class="homework-group__element5">
+            <div id="box2"></div>
+        </div>
+        <div class="homework-group__element6" style="padding: 20px 0; background-color: rgb(215, 243, 221); border-radius: 10px; border: 2px solid black; margin: 20px 0; display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 20px;">
+            <p id="game-marke" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30px; font-style: oblique; color: darkblue;"></p>
+            <p id="game-key" style="font-family: 'Courier New', Courier, monospace; font-size: 20px;"></p>
+            <p id="game-status" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 15px; font-style: oblique; color: dodgerblue;"></p>
+            <button type="button" id="new-game_btn" style="width: 150px; height: 50px; border: none; border-radius: 5px; background-color: deepskyblue; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 15px; font-style: oblique;">New Game</button>
+        </div>
+        <div class="homework-group__element7">
+            <div class="block"></div>
+        </div>
+        <div class="homework-group__element8">
+            <ul class="gallery">
+                <li>
+                    <img class="image" src="https://images.pexels.com/photos/4617294/pexels-photo-4617294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
+                </li>
+                <li>
+                    <img class="image" src="https://images.pexels.com/photos/4617294/pexels-photo-4617294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
+                </li>
+                <li>
+                    <img class="image" src="https://images.pexels.com/photos/11815778/pexels-photo-11815778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
+                </li>
+                <li>
+                    <img class="image" src="https://images.pexels.com/photos/6195166/pexels-photo-6195166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
+                </li>
+                <li>
+                    <img class="image" src="https://images.pexels.com/photos/6957926/pexels-photo-6957926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
+                </li>
+                <li>
+                    <img class="image" src="https://images.pexels.com/photos/15520825/pexels-photo-15520825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
+                </li>
+            </ul>
+        </div>  
+        <div class="homework-group__element9">
+            <div id="controls">
+                <input type="number" min="0" max="100" step="1" id="amount" />
+                <button type="button" data-action="render">Створити</button>
+                <button type="button" data-action="destroy">Очистити</button>
+            </div>
+            <div id="boxes"></div>
+        </div>
+    </div>
+    <script src="./src/js/index20.js"></script>
+</body>
+</html>
